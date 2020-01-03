@@ -1,0 +1,20 @@
+--------------------------------------------------------------
+		MANUAL DE EXECUÇÃO CÓDIGO
+
+Artigo: Minimizando os custos energéticos de alocação de 
+aulas a salas: o caso de uma instituição federal de ensino.
+
+Alunos: João Marcos, Elan Lima e Rafaela Marques
+---------------------------------------------------------------
+
+Para executar o código contido no arquivo "main.cpp" para os arquivos 
+de entrada 1 e 2.
+	1° Passo: abrir o terminal na pasta do projeto
+	2° Passo: executar no terminal o comando: "make"
+	3° Passo: executar no terminal o comando:
+	"./main entrada(N° da entrada).txt > saida(N° da entrada).txt"
+
+Após executar o 3° passo todos os dados de entrada do arquivo escolhido 
+e o resultado da alocação resolvido pelo Cplex estará no arquivo txt de saída.
+
+

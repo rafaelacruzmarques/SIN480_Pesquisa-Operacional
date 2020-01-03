@@ -1,0 +1,101 @@
+
+
+------
+
+
+A - Conjunto das turmas:
+0 1 2 
+
+L - Conjunto dos locais:
+0 1 
+
+H - Conjunto dos horarios:
+0 1 2 
+
+B c A - Conjunto de turmas que requerem apenas salas:
+0 
+
+C c A - Conjunto de turmas que requerem apenas lab:
+1 2 
+
+Bk c B - Conjuto turmas SALAS de aula horario k existente H: 
+	Horario 0: 0 
+	Horario 1: 
+	Horario 2: 
+
+
+Ck c C - COnjunto turmas LABORATORIOS horario k existente H: 
+	Horario 0: 
+	Horario 1: 1 
+	Horario 2: 2 
+
+
+S c L- Conjunto SALAS:
+0 
+
+I c L- Conjunto LABORATORIOS:
+1 
+
+Si c S - Conjunto SALAS suportam alunos tumra i existente B: 
+	Turma (Sala) 0: 0 
+
+
+Ii c I - Conjunto LABORATORIOS suportam alunos turma i existente C: 
+	Turma (Lab) 0: 0 
+	Turma (Lab) 1: 0 
+
+
+Hi c H - Horario aulas turma i existente A:
+	Turma 0: 0 
+	Turma 1: 1 
+	Turma 2: 2 
+
+
+cj - custo aula local aula j existente L:
+230 230 
+
+mj - custo utilizacao LABORATORIO j existente I:
+10 
+
+qi - quantidade alinos i existente C:
+150 200 
+
+
+------
+
+Found incumbent of value 4190.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 12 rows and 7 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+
+
+
+
+
+VARIÁVEL X: 
+Turma 	Horário 	Local 
+0 	0 		0
+----------------------------------------------
+VARIÁVEL Y: 
+Turma 	Local 
+0 	0
+----------------------------------------------
+VARIÁVEL T: 
+Turma 	Horário 	Local 
+1 	1 		1
+2 	2 		1
+----------------------------------------------
+VARIÁVEL U: 
+Turma 	Local 
+1 	1
+2 	1
